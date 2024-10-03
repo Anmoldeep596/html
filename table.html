@@ -2,12 +2,13 @@
 <style>
     table{
          border-collapse: collapse;
+         box-shadow: 2px 10px 10px blue;
          }
     
     
     
     table, th,td{
-           border: 1px solid black;
+           border: 1px solid red;
            }
            
      th, td{
@@ -16,7 +17,7 @@
           }
           
      th{
-       background: black;
+       background-image: radial-gradient(black,blue);
        }
        
      tr:nth-child(odd){
@@ -38,6 +39,8 @@
 
 
 <table>
+
+   <Caption>This is Invetory of Cars. </caption>
    <tr>
       <th>Heading 1</th>
       <th>Heading 2</th>
@@ -54,7 +57,7 @@
       </tr>
       <tr>
           <td>Data Cell 4</td>
-          <td rowspan="2" colspan="2" style="text-align:center">Data Cell 5</td>
+          <td rowspan="3" colspan="2" style="text-align:center">Data Cell 5</td>
           
       
       
@@ -68,8 +71,7 @@
       </tr>
        <tr>
           <td>Data Cell 10</td>
-          <td>Data Cell 11</td>
-          <td>Data Cell 12</td>
+         
       
       
       </tr>
